@@ -1,0 +1,8 @@
+.faq-area {
+    background: #eef1f6;
+    position: relative;
+    background-image: url('../images/shape/faq-shape.png');
+    background-position: 94% 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+}

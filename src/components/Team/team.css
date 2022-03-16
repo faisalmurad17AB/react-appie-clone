@@ -1,0 +1,50 @@
+.team-item .thumb {
+    position: relative;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.team-item .thumb img {
+    transition: all 0.3s ease-out 0s;
+    width: 100%;
+}
+
+.team-item .content {
+    padding-top: 27px;
+}
+
+.team-item .content .title {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 8px;
+}
+
+.team-item .content span {
+    font-size: 14px;
+    color: red;
+}
+
+.team-item:hover .thumb::before {
+    opacity: 0.5;
+}
+
+
+.team-item:hover .thumb img {
+    transform: scale(1.1);
+}
+
+
+.team-btn a {
+    background: transparent;
+    color: green;
+    border: 2px solid #e7eaef;
+}
+
+.team-btn a i {
+    padding-left: 6px;
+}
+
+.team-btn a:hover {
+    background: #2b70fa;
+    color: #fff;
+}

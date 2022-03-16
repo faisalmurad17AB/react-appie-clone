@@ -1,0 +1,187 @@
+.home-area {
+    padding-top: 200px;
+    padding-bottom: 110px;
+    overflow: hidden;
+    position: relative;
+    z-index: 10;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hoem-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .hoem-content {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+}
+
+.hoem-content>span {
+    color: #2b70fa;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hoem-content .appie-title {
+    font-size: 60px;
+    line-height: 70px;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hoem-content .appie-title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .hoem-content .appie-title {
+        font-size: 48px;
+        line-height: 58px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hoem-content .appie-title {
+        font-size: 28px;
+        line-height: 38px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hoem-content .appie-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+.hoem-content p {
+    font-size: 14px;
+    line-height: 28px;
+}
+
+@media (max-width: 767px) {
+    .appie-hero-content p {
+        font-size: 15px;
+        line-height: 26px;
+    }
+}
+
+.hoem-content ul {
+    margin: 41px 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.hoem-content ul li {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+@media (max-width: 767px) {
+    .hoem-content ul li {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hoem-content ul li {
+        margin-bottom: 0px;
+    }
+}
+
+.hoem-content ul li a {
+    background: #0e1133;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 23px;
+    border-radius: 6px;
+    border: 2px solid #0e1133;
+}
+
+.hoem-content ul li a i {
+    padding-right: 6px;
+}
+
+.hoem-content ul li a:hover {
+    /* background: transparent; */
+    color: #0e1133;
+}
+
+.hoem-content ul li a.item-2 {
+    background: transparent;
+    color: #0e1133;
+}
+
+.hoem-content ul li a.item-2:hover {
+    background: #0e1133;
+    color: #fff;
+}
+
+.hoem-content.hoem-content-4 {
+    padding-right: 40px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .hoem-content.hoem-content-4 {
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .appie-hero-content.appie-hero-content-4 {
+        padding-right: 0;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .appie-hero-content.appie-hero-content-6 .appie-title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+
+
+.home-thumb {
+    position: relative;
+    z-index: 10;
+    text-align: center;
+}
+
+.thumb img{
+    vertical-align: middle;
+    border-style: none;
+    height: 40%;
+}
+.home-thumb .thumb-2 {
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 0px 30px 70px 0px rgba(68, 1, 15, 0.2);
+}
+
+.home-thumb::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    height: 500px;
+    width: 500px;
+    transform: translate(-50%, -50%);
+    background: blue;
+    border-radius: 50%;
+    z-index: -1;
+}
+

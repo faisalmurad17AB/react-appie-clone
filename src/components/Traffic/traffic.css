@@ -1,0 +1,163 @@
+.traffic-area {
+    position: relative;
+    overflow: hidden;
+    z-index: 15;
+}
+
+.traffic-area .traffic-thumb {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 42%;
+}
+
+@media (max-width: 767px) {
+    .traffic-area .traffic-thumb {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .traffic-area .traffic-thumb {
+        display: none;
+    }
+}
+
+.traffic-title {
+    padding-right: 180px;
+    margin-bottom: 43px;
+}
+
+@media (max-width: 767px) {
+    .traffic-title {
+        padding-right: 0;
+    }
+}
+
+.traffic-title span {
+    font-size: 30px;
+    font-weight: 500;
+    color: #2b70fa;
+}
+
+.traffic-title .title {
+    font-size: 40px;
+    line-height: 54px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .traffic-title .title {
+        font-size: 30px;
+        line-height: 46px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .traffic-title .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+}
+
+@media (max-width: 767px) {
+    .traffic-title .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+.traffic-service {
+    position: relative;
+    padding-left: 40px;
+    padding-right: 70px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .traffic-service {
+        padding-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .traffic-service {
+        margin-bottom: 30px;
+        padding-right: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .traffic-service {
+        margin-bottom: 30px;
+        padding-right: 0px;
+    }
+}
+
+.traffic-service .icon {
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.traffic-service .icon i {
+    height: 26px;
+    width: 26px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
+    color: #fff;
+    font-size: 14px;
+    box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
+}
+
+.traffic-service .title {
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+.traffic-service p {
+    font-size: 15px;
+}
+
+.traffic-service.item-2 .icon i {
+    background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
+}
+
+.traffic-service.item-3 .icon i {
+    background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
+}
+
+.traffic-service.item-4 .icon i {
+    background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .traffic-btn {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .traffic-btn {
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .traffic-btn {
+        text-align: left;
+    }
+}
+
+.traffic-btn a.main-btn {
+    background: transparent;
+    color: #0e1133;
+    border: 2px solid #e7eaef;
+}
+
+.traffic-btn a.main-btn:hover {
+    background: #2b70fa;
+    color: #fff;
+}

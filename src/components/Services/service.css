@@ -1,0 +1,104 @@
+.service-area {
+    background: #eef1f6;
+    position: relative;
+    background-image: url('../images/shape/shape-1.png');
+    background-position: 92% 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.single-service {
+    padding: 50px 30px 43px;
+    background: #fff;
+    border-radius: 6px;
+    transition: all linear 0.3s;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .single-service {
+        padding: 50px 15px 43px;
+    }
+}
+
+.single-service .icon {
+    display: inline-block;
+    border-radius: 20px;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    line-height: 70px;
+    background: linear-gradient(135deg, #84bcfa 0%, #2b70fa 100%);
+    box-shadow: 0px 6px 10px 0px rgba(16, 73, 189, 0.3);
+    position: relative;
+}
+
+.single-service .icon>span {
+    position: absolute;
+    right: -10px;
+    top: -10px;
+    height: 30px;
+    width: 30px;
+    background: #2b70fa;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0px 3px 6px 0px rgba(14, 17, 51, 0.1);
+    line-height: 28px;
+    color: #fff;
+}
+
+.single-service .appie-title {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 33px;
+    padding-bottom: 10px;
+}
+
+.single-service:hover {
+    box-shadow: 0px 40px 40px 0px rgba(14, 17, 51, 0.1);
+    transform: translateY(-15px);
+}
+
+.single-service.item-2 .icon {
+    background: linear-gradient(135deg, #f7b8af 0%, #f8452d 100%);
+}
+
+.single-service.item-2 .icon span {
+    background: #f8452d;
+}
+
+.single-service.item-3 .icon {
+    background: linear-gradient(135deg, #a0eac2 0%, #31c369 100%);
+}
+
+.single-service.item-3 .icon span {
+    background: #31c369;
+}
+
+.single-service.item-4 .icon {
+    background: linear-gradient(135deg, #d8aaff 0%, #9b2cfa 100%);
+}
+
+.single-service.item-4 .icon span {
+    background: #9b2cfa;
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .service-details-sidebar {
+        margin-right: 0;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .service-details-sidebar {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .service-details-sidebar {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}
